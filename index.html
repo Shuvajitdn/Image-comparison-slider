@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Comparison Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS3gR2mRGVUhacPrioUxW4Ommk9EVtPTs2l2HK5TROMASw5_rut9SbYcacpyFoYFiWwqI3CQT_6-cc88WOrt4NOJX0eciNfBTN_XIDg2DDCUdlNvL8Ip8e041o" alt="Before">
+
+        <img id="my-img" src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSIWXKQACOI4YDN2o4ECJoiwiEPmZRPnCKMXY1w8H6SDqR0CpzzW-iulZs4RTCO_Ml0zUJ0_kRkE_4_JTzS8XOL8chBabuRzEgmWOW92cI5MbI5MZaCeO4F5jw" alt="After">
+
+        <input type="range" min="0" max="100" value="50" id="slider" oninput="slide()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
